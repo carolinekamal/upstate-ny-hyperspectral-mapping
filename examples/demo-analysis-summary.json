@@ -1,0 +1,54 @@
+{
+  "project": "Upstate New York hyperspectral surface mapping",
+  "region": "Finger Lakes, New York",
+  "region_bbox_wgs84": [
+    -77.35,
+    42.3,
+    -76.3,
+    43.08
+  ],
+  "provenance": "SYNTHETIC DEMONSTRATION \u2014 not NASA imagery or observed mineralogy",
+  "is_synthetic": true,
+  "scene_shape": [
+    154,
+    224,
+    285
+  ],
+  "wavelength_range_nm": [
+    381.0,
+    2493.0
+  ],
+  "total_bands": 285,
+  "usable_bands": 242,
+  "valid_pixels": 33564,
+  "water_pixels": 2616,
+  "vegetation_pixels": 22191,
+  "exposed_surface_pixels": 8757,
+  "exposed_surface_fraction": 0.2609,
+  "pca_explained_variance_ratio": [
+    0.94198,
+    0.045,
+    0.00584,
+    0.0007,
+    0.00043,
+    0.00031
+  ],
+  "pca_cumulative_explained_variance": 0.99426,
+  "cluster_count": 6,
+  "cluster_pixel_counts": {
+    "0": 6248,
+    "1": 5351,
+    "2": 3217,
+    "3": 5540,
+    "4": 3083,
+    "5": 7509
+  },
+  "silhouette_score": 0.5979,
+  "interpretation_note": "Clusters and absorption features are exploratory surface-spectral proxies. They are not validated mineral identifications, crop diagnoses, or maps of materials beneath vegetation.",
+  "figures": {
+    "study_area_overview": "figures/study-area-overview.png",
+    "spectral_signatures": "figures/spectral-signatures.png",
+    "pca_clusters": "figures/pca-clusters.png",
+    "surface_proxies": "figures/surface-proxies.png"
+  }
+}

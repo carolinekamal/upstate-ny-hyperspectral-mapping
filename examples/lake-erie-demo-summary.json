@@ -1,0 +1,54 @@
+{
+  "project": "Upstate New York hyperspectral surface mapping",
+  "region": "Lake Erie Grape Belt, New York",
+  "region_bbox_wgs84": [
+    -79.9,
+    42.05,
+    -78.72,
+    42.82
+  ],
+  "provenance": "SYNTHETIC DEMONSTRATION \u2014 not NASA imagery or observed mineralogy",
+  "is_synthetic": true,
+  "scene_shape": [
+    154,
+    224,
+    285
+  ],
+  "wavelength_range_nm": [
+    381.0,
+    2493.0
+  ],
+  "total_bands": 285,
+  "usable_bands": 242,
+  "valid_pixels": 33564,
+  "water_pixels": 12663,
+  "vegetation_pixels": 15251,
+  "exposed_surface_pixels": 5650,
+  "exposed_surface_fraction": 0.1683,
+  "pca_explained_variance_ratio": [
+    0.9419,
+    0.04518,
+    0.00559,
+    0.00073,
+    0.00044,
+    0.00032
+  ],
+  "pca_cumulative_explained_variance": 0.99416,
+  "cluster_count": 6,
+  "cluster_pixel_counts": {
+    "0": 4960,
+    "1": 3666,
+    "2": 4161,
+    "3": 1984,
+    "4": 3629,
+    "5": 2501
+  },
+  "silhouette_score": 0.5803,
+  "interpretation_note": "Clusters and absorption features are exploratory surface-spectral proxies. They are not validated mineral identifications, crop diagnoses, or maps of materials beneath vegetation.",
+  "figures": {
+    "study_area_overview": "figures/study-area-overview.png",
+    "spectral_signatures": "figures/spectral-signatures.png",
+    "pca_clusters": "figures/pca-clusters.png",
+    "surface_proxies": "figures/surface-proxies.png"
+  }
+}

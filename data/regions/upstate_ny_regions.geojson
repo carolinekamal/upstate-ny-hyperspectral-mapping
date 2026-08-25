@@ -1,0 +1,31 @@
+{
+  "type": "FeatureCollection",
+  "name": "Upstate New York hyperspectral study regions",
+  "crs": {"type": "name", "properties": {"name": "EPSG:4326"}},
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {"slug": "finger-lakes", "name": "Finger Lakes, New York"},
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-77.35, 42.30], [-76.30, 42.30], [-76.30, 43.08], [-77.35, 43.08], [-77.35, 42.30]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {"slug": "seneca-cayuga", "name": "Seneca-Cayuga Wine Corridor, New York"},
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-77.12, 42.38], [-76.45, 42.38], [-76.45, 42.94], [-77.12, 42.94], [-77.12, 42.38]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {"slug": "lake-erie", "name": "Lake Erie Grape Belt, New York"},
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-79.90, 42.05], [-78.72, 42.05], [-78.72, 42.82], [-79.90, 42.82], [-79.90, 42.05]]]
+      }
+    }
+  ]
+}

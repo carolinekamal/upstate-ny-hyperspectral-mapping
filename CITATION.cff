@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this workflow, please cite the software and the underlying NASA dataset."
+title: "Upstate New York Hyperspectral Surface Mapping"
+type: software
+authors:
+  - family-names: Kamal
+    given-names: Caroline
+version: 0.1.0
+date-released: 2026-08-25
+url: "https://github.com/carolinekamal/upstate-ny-hyperspectral-mapping"
+license: MIT
+references:
+  - type: dataset
+    title: "EMIT L2A Estimated Surface Reflectance and Uncertainty and Masks 60 m V001"
+    authors:
+      - family-names: Green
+        given-names: Robert
+    year: 2022
+    doi: "10.5067/EMIT/EMITL2ARFL.001"
